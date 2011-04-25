@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA334E0813655510002BDA49 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA334E0713655510002BDA49 /* UIKit.framework */; };
+		EA334E0A13655510002BDA49 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA334E0913655510002BDA49 /* Foundation.framework */; };
+		EA334E0C13655510002BDA49 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA334E0B13655510002BDA49 /* CoreGraphics.framework */; };
+		EA334E0E13655510002BDA49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA334E0D13655510002BDA49 /* QuartzCore.framework */; };
+		EA334E1013655510002BDA49 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA334E0F13655510002BDA49 /* OpenGLES.framework */; };
+		EA334E1613655510002BDA49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA334E1413655510002BDA49 /* InfoPlist.strings */; };
+		EA334E1913655510002BDA49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E1813655510002BDA49 /* main.m */; };
+		EA334E1C13655510002BDA49 /* ShotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E1B13655510002BDA49 /* ShotAppDelegate.m */; };
+		EA334E1F13655510002BDA49 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E1D13655510002BDA49 /* MainWindow.xib */; };
+		EA334E2113655510002BDA49 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2013655510002BDA49 /* Shader.fsh */; };
+		EA334E2313655510002BDA49 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2213655510002BDA49 /* Shader.vsh */; };
+		EA334E2613655510002BDA49 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2513655510002BDA49 /* EAGLView.m */; };
+		EA334E2913655510002BDA49 /* ShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2813655510002BDA49 /* ShotViewController.m */; };
+		EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2A13655510002BDA49 /* ShotViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA334E0313655510002BDA49 /* Shot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA334E0713655510002BDA49 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EA334E0913655510002BDA49 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EA334E0B13655510002BDA49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EA334E0D13655510002BDA49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EA334E0F13655510002BDA49 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		EA334E1313655510002BDA49 /* Shot-Info.plist */ = {isa = PBXFileReference; path = "Shot-Info.plist"; sourceTree = "<group>"; };
+		EA334E1513655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		EA334E1713655510002BDA49 /* Shot-Prefix.pch */ = {isa = PBXFileReference; path = "Shot-Prefix.pch"; sourceTree = "<group>"; };
+		EA334E1813655510002BDA49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EA334E1A13655510002BDA49 /* ShotAppDelegate.h */ = {isa = PBXFileReference; path = ShotAppDelegate.h; sourceTree = "<group>"; };
+		EA334E1B13655510002BDA49 /* ShotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotAppDelegate.m; sourceTree = "<group>"; };
+		EA334E1E13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		EA334E2013655510002BDA49 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
+		EA334E2213655510002BDA49 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
+		EA334E2413655510002BDA49 /* EAGLView.h */ = {isa = PBXFileReference; path = EAGLView.h; sourceTree = "<group>"; };
+		EA334E2513655510002BDA49 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		EA334E2713655510002BDA49 /* ShotViewController.h */ = {isa = PBXFileReference; path = ShotViewController.h; sourceTree = "<group>"; };
+		EA334E2813655510002BDA49 /* ShotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotViewController.m; sourceTree = "<group>"; };
+		EA334E2B13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShotViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA334E0013655510002BDA49 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA334E0813655510002BDA49 /* UIKit.framework in Frameworks */,
+				EA334E0A13655510002BDA49 /* Foundation.framework in Frameworks */,
+				EA334E0C13655510002BDA49 /* CoreGraphics.framework in Frameworks */,
+				EA334E0E13655510002BDA49 /* QuartzCore.framework in Frameworks */,
+				EA334E1013655510002BDA49 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA334DF813655510002BDA49 = {
+			isa = PBXGroup;
+			children = (
+				EA334E1113655510002BDA49 /* Shot */,
+				EA334E0613655510002BDA49 /* Frameworks */,
+				EA334E0413655510002BDA49 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA334E0413655510002BDA49 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA334E0313655510002BDA49 /* Shot.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA334E0613655510002BDA49 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EA334E0713655510002BDA49 /* UIKit.framework */,
+				EA334E0913655510002BDA49 /* Foundation.framework */,
+				EA334E0B13655510002BDA49 /* CoreGraphics.framework */,
+				EA334E0D13655510002BDA49 /* QuartzCore.framework */,
+				EA334E0F13655510002BDA49 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EA334E1113655510002BDA49 /* Shot */ = {
+			isa = PBXGroup;
+			children = (
+				EA334E1A13655510002BDA49 /* ShotAppDelegate.h */,
+				EA334E1B13655510002BDA49 /* ShotAppDelegate.m */,
+				EA334E1D13655510002BDA49 /* MainWindow.xib */,
+				EA334E2013655510002BDA49 /* Shader.fsh */,
+				EA334E2213655510002BDA49 /* Shader.vsh */,
+				EA334E2413655510002BDA49 /* EAGLView.h */,
+				EA334E2513655510002BDA49 /* EAGLView.m */,
+				EA334E2713655510002BDA49 /* ShotViewController.h */,
+				EA334E2813655510002BDA49 /* ShotViewController.m */,
+				EA334E2A13655510002BDA49 /* ShotViewController.xib */,
+				EA334E1213655510002BDA49 /* Supporting Files */,
+			);
+			path = Shot;
+			sourceTree = "<group>";
+		};
+		EA334E1213655510002BDA49 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EA334E1313655510002BDA49 /* Shot-Info.plist */,
+				EA334E1413655510002BDA49 /* InfoPlist.strings */,
+				EA334E1713655510002BDA49 /* Shot-Prefix.pch */,
+				EA334E1813655510002BDA49 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA334E0213655510002BDA49 /* Shot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA334E2F13655510002BDA49 /* Build configuration list for PBXNativeTarget "Shot" */;
+			buildPhases = (
+				EA334DFF13655510002BDA49 /* Sources */,
+				EA334E0013655510002BDA49 /* Frameworks */,
+				EA334E0113655510002BDA49 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Shot;
+			productName = Shot;
+			productReference = EA334E0313655510002BDA49 /* Shot.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA334DFA13655510002BDA49 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = EA334DFD13655510002BDA49 /* Build configuration list for PBXProject "Shot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EA334DF813655510002BDA49;
+			productRefGroup = EA334E0413655510002BDA49 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA334E0213655510002BDA49 /* Shot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA334E0113655510002BDA49 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA334E1613655510002BDA49 /* InfoPlist.strings in Resources */,
+				EA334E1F13655510002BDA49 /* MainWindow.xib in Resources */,
+				EA334E2113655510002BDA49 /* Shader.fsh in Resources */,
+				EA334E2313655510002BDA49 /* Shader.vsh in Resources */,
+				EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA334DFF13655510002BDA49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA334E1913655510002BDA49 /* main.m in Sources */,
+				EA334E1C13655510002BDA49 /* ShotAppDelegate.m in Sources */,
+				EA334E2613655510002BDA49 /* EAGLView.m in Sources */,
+				EA334E2913655510002BDA49 /* ShotViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EA334E1413655510002BDA49 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA334E1513655510002BDA49 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		EA334E1D13655510002BDA49 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA334E1E13655510002BDA49 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		EA334E2A13655510002BDA49 /* ShotViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA334E2B13655510002BDA49 /* en */,
+			);
+			name = ShotViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA334E2D13655510002BDA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EA334E2E13655510002BDA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		EA334E3013655510002BDA49 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shot/Shot-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Shot/Shot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		EA334E3113655510002BDA49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Shot/Shot-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "Shot/Shot-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA334DFD13655510002BDA49 /* Build configuration list for PBXProject "Shot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA334E2D13655510002BDA49 /* Debug */,
+				EA334E2E13655510002BDA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA334E2F13655510002BDA49 /* Build configuration list for PBXNativeTarget "Shot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA334E3013655510002BDA49 /* Debug */,
+				EA334E3113655510002BDA49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA334DFA13655510002BDA49 /* Project object */;
+}
