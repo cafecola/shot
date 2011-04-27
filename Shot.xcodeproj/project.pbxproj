@@ -21,6 +21,7 @@
 		EA334E2613655510002BDA49 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2513655510002BDA49 /* EAGLView.m */; };
 		EA334E2913655510002BDA49 /* ShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2813655510002BDA49 /* ShotViewController.m */; };
 		EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2A13655510002BDA49 /* ShotViewController.xib */; };
+		EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E3F13656C53002BDA49 /* MyTexture.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,20 +31,22 @@
 		EA334E0B13655510002BDA49 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EA334E0D13655510002BDA49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EA334E0F13655510002BDA49 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
-		EA334E1313655510002BDA49 /* Shot-Info.plist */ = {isa = PBXFileReference; path = "Shot-Info.plist"; sourceTree = "<group>"; };
+		EA334E1313655510002BDA49 /* Shot-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Shot-Info.plist"; sourceTree = "<group>"; };
 		EA334E1513655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		EA334E1713655510002BDA49 /* Shot-Prefix.pch */ = {isa = PBXFileReference; path = "Shot-Prefix.pch"; sourceTree = "<group>"; };
+		EA334E1713655510002BDA49 /* Shot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shot-Prefix.pch"; sourceTree = "<group>"; };
 		EA334E1813655510002BDA49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		EA334E1A13655510002BDA49 /* ShotAppDelegate.h */ = {isa = PBXFileReference; path = ShotAppDelegate.h; sourceTree = "<group>"; };
+		EA334E1A13655510002BDA49 /* ShotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotAppDelegate.h; sourceTree = "<group>"; };
 		EA334E1B13655510002BDA49 /* ShotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotAppDelegate.m; sourceTree = "<group>"; };
 		EA334E1E13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		EA334E2013655510002BDA49 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		EA334E2213655510002BDA49 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
-		EA334E2413655510002BDA49 /* EAGLView.h */ = {isa = PBXFileReference; path = EAGLView.h; sourceTree = "<group>"; };
+		EA334E2413655510002BDA49 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		EA334E2513655510002BDA49 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
-		EA334E2713655510002BDA49 /* ShotViewController.h */ = {isa = PBXFileReference; path = ShotViewController.h; sourceTree = "<group>"; };
+		EA334E2713655510002BDA49 /* ShotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotViewController.h; sourceTree = "<group>"; };
 		EA334E2813655510002BDA49 /* ShotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotViewController.m; sourceTree = "<group>"; };
 		EA334E2B13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShotViewController.xib; sourceTree = "<group>"; };
+		EA334E3E13656C53002BDA49 /* MyTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTexture.h; sourceTree = "<group>"; };
+		EA334E3F13656C53002BDA49 /* MyTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyTexture.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				EA334E2813655510002BDA49 /* ShotViewController.m */,
 				EA334E2A13655510002BDA49 /* ShotViewController.xib */,
 				EA334E1213655510002BDA49 /* Supporting Files */,
+				EA334E3E13656C53002BDA49 /* MyTexture.h */,
+				EA334E3F13656C53002BDA49 /* MyTexture.mm */,
 			);
 			path = Shot;
 			sourceTree = "<group>";
@@ -186,6 +191,7 @@
 				EA334E1C13655510002BDA49 /* ShotAppDelegate.m in Sources */,
 				EA334E2613655510002BDA49 /* EAGLView.m in Sources */,
 				EA334E2913655510002BDA49 /* ShotViewController.m in Sources */,
+				EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
