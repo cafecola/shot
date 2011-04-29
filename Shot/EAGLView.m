@@ -113,6 +113,20 @@
         glBindFramebuffer(GL_FRAMEBUFFER, defaultFramebuffer);
         
         glViewport(0, 0, framebufferWidth, framebufferHeight);
+        
+        glMatrixMode(GL_PROJECTION);
+		glLoadIdentity();		
+		glOrthof(-framebufferWidth/2.0f, framebufferWidth/2.0f, -framebufferHeight/2.0f, framebufferHeight/2.0f, -1.0f, 1.0f);
+		
+		glMatrixMode(GL_MODELVIEW);
+		glLoadIdentity();
+		glTranslatef(framebufferWidth/2.0f, framebufferHeight/2.0f, 0.0f);
+		glRotatef(270, 0, 0, 1);
+		glScalef(1, -1, 1);
+		
+		
+		glEnable(GL_BLEND);
+		glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     }
 }
 

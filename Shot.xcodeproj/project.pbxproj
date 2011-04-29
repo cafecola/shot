@@ -14,12 +14,12 @@
 		EA334E1013655510002BDA49 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA334E0F13655510002BDA49 /* OpenGLES.framework */; };
 		EA334E1613655510002BDA49 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EA334E1413655510002BDA49 /* InfoPlist.strings */; };
 		EA334E1913655510002BDA49 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E1813655510002BDA49 /* main.m */; };
-		EA334E1C13655510002BDA49 /* ShotAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E1B13655510002BDA49 /* ShotAppDelegate.m */; };
+		EA334E1C13655510002BDA49 /* ShotAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E1B13655510002BDA49 /* ShotAppDelegate.mm */; };
 		EA334E1F13655510002BDA49 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E1D13655510002BDA49 /* MainWindow.xib */; };
 		EA334E2113655510002BDA49 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2013655510002BDA49 /* Shader.fsh */; };
 		EA334E2313655510002BDA49 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2213655510002BDA49 /* Shader.vsh */; };
 		EA334E2613655510002BDA49 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2513655510002BDA49 /* EAGLView.m */; };
-		EA334E2913655510002BDA49 /* ShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2813655510002BDA49 /* ShotViewController.m */; };
+		EA334E2913655510002BDA49 /* ShotViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2813655510002BDA49 /* ShotViewController.mm */; };
 		EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2A13655510002BDA49 /* ShotViewController.xib */; };
 		EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E3F13656C53002BDA49 /* MyTexture.mm */; };
 		EAC96775136A561F00DBB785 /* me_Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96766136A561F00DBB785 /* me_Common.mm */; };
@@ -44,6 +44,7 @@
 		EAC96798136A56FB00DBB785 /* hit.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678B136A56FB00DBB785 /* hit.png */; };
 		EAC96799136A56FB00DBB785 /* hit.spr in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678C136A56FB00DBB785 /* hit.spr */; };
 		EAC9679A136A56FB00DBB785 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678D136A56FB00DBB785 /* hit.wav */; };
+		EAC9679D136A587500DBB785 /* game_common.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC9679C136A587500DBB785 /* game_common.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,14 +59,14 @@
 		EA334E1713655510002BDA49 /* Shot-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Shot-Prefix.pch"; sourceTree = "<group>"; };
 		EA334E1813655510002BDA49 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		EA334E1A13655510002BDA49 /* ShotAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotAppDelegate.h; sourceTree = "<group>"; };
-		EA334E1B13655510002BDA49 /* ShotAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotAppDelegate.m; sourceTree = "<group>"; };
+		EA334E1B13655510002BDA49 /* ShotAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ShotAppDelegate.mm; sourceTree = "<group>"; };
 		EA334E1E13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
 		EA334E2013655510002BDA49 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		EA334E2213655510002BDA49 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		EA334E2413655510002BDA49 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
 		EA334E2513655510002BDA49 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
 		EA334E2713655510002BDA49 /* ShotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotViewController.h; sourceTree = "<group>"; };
-		EA334E2813655510002BDA49 /* ShotViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ShotViewController.m; sourceTree = "<group>"; };
+		EA334E2813655510002BDA49 /* ShotViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ShotViewController.mm; sourceTree = "<group>"; };
 		EA334E2B13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShotViewController.xib; sourceTree = "<group>"; };
 		EA334E3E13656C53002BDA49 /* MyTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTexture.h; sourceTree = "<group>"; };
 		EA334E3F13656C53002BDA49 /* MyTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyTexture.mm; sourceTree = "<group>"; };
@@ -99,6 +100,8 @@
 		EAC9678B136A56FB00DBB785 /* hit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hit.png; path = Resource/hit.png; sourceTree = "<group>"; };
 		EAC9678C136A56FB00DBB785 /* hit.spr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hit.spr; path = Resource/hit.spr; sourceTree = "<group>"; };
 		EAC9678D136A56FB00DBB785 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = Resource/hit.wav; sourceTree = "<group>"; };
+		EAC9679B136A587500DBB785 /* game_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_common.h; sourceTree = "<group>"; };
+		EAC9679C136A587500DBB785 /* game_common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_common.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +155,8 @@
 		EA334E1113655510002BDA49 /* Shot */ = {
 			isa = PBXGroup;
 			children = (
+				EAC9679B136A587500DBB785 /* game_common.h */,
+				EAC9679C136A587500DBB785 /* game_common.mm */,
 				EAC96765136A561F00DBB785 /* me_Common.h */,
 				EAC96766136A561F00DBB785 /* me_Common.mm */,
 				EAC96767136A561F00DBB785 /* me_Font.h */,
@@ -169,14 +174,14 @@
 				EAC96773136A561F00DBB785 /* me_Timer.h */,
 				EAC96774136A561F00DBB785 /* me_Timer.mm */,
 				EA334E1A13655510002BDA49 /* ShotAppDelegate.h */,
-				EA334E1B13655510002BDA49 /* ShotAppDelegate.m */,
+				EA334E1B13655510002BDA49 /* ShotAppDelegate.mm */,
 				EA334E1D13655510002BDA49 /* MainWindow.xib */,
 				EA334E2013655510002BDA49 /* Shader.fsh */,
 				EA334E2213655510002BDA49 /* Shader.vsh */,
 				EA334E2413655510002BDA49 /* EAGLView.h */,
 				EA334E2513655510002BDA49 /* EAGLView.m */,
 				EA334E2713655510002BDA49 /* ShotViewController.h */,
-				EA334E2813655510002BDA49 /* ShotViewController.m */,
+				EA334E2813655510002BDA49 /* ShotViewController.mm */,
 				EA334E2A13655510002BDA49 /* ShotViewController.xib */,
 				EA334E1213655510002BDA49 /* Supporting Files */,
 				EA334E3E13656C53002BDA49 /* MyTexture.h */,
@@ -292,9 +297,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA334E1913655510002BDA49 /* main.m in Sources */,
-				EA334E1C13655510002BDA49 /* ShotAppDelegate.m in Sources */,
+				EA334E1C13655510002BDA49 /* ShotAppDelegate.mm in Sources */,
 				EA334E2613655510002BDA49 /* EAGLView.m in Sources */,
-				EA334E2913655510002BDA49 /* ShotViewController.m in Sources */,
+				EA334E2913655510002BDA49 /* ShotViewController.mm in Sources */,
 				EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */,
 				EAC96775136A561F00DBB785 /* me_Common.mm in Sources */,
 				EAC96776136A561F00DBB785 /* me_Font.mm in Sources */,
@@ -304,6 +309,7 @@
 				EAC9677A136A561F00DBB785 /* me_Sprite.mm in Sources */,
 				EAC9677B136A561F00DBB785 /* me_Texture.mm in Sources */,
 				EAC9677C136A561F00DBB785 /* me_Timer.mm in Sources */,
+				EAC9679D136A587500DBB785 /* game_common.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
