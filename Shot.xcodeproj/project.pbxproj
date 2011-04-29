@@ -22,6 +22,28 @@
 		EA334E2913655510002BDA49 /* ShotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2813655510002BDA49 /* ShotViewController.m */; };
 		EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2A13655510002BDA49 /* ShotViewController.xib */; };
 		EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E3F13656C53002BDA49 /* MyTexture.mm */; };
+		EAC96775136A561F00DBB785 /* me_Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96766136A561F00DBB785 /* me_Common.mm */; };
+		EAC96776136A561F00DBB785 /* me_Font.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96768136A561F00DBB785 /* me_Font.mm */; };
+		EAC96777136A561F00DBB785 /* me_math.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC9676A136A561F00DBB785 /* me_math.mm */; };
+		EAC96778136A561F00DBB785 /* me_ScreenPad.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC9676C136A561F00DBB785 /* me_ScreenPad.mm */; };
+		EAC96779136A561F00DBB785 /* me_Sound.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC9676E136A561F00DBB785 /* me_Sound.mm */; };
+		EAC9677A136A561F00DBB785 /* me_Sprite.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96770136A561F00DBB785 /* me_Sprite.mm */; };
+		EAC9677B136A561F00DBB785 /* me_Texture.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96772136A561F00DBB785 /* me_Texture.mm */; };
+		EAC9677C136A561F00DBB785 /* me_Timer.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96774136A561F00DBB785 /* me_Timer.mm */; };
+		EAC9677F136A565C00DBB785 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EAC9677E136A565C00DBB785 /* AudioToolbox.framework */; };
+		EAC9678E136A56FB00DBB785 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC96781136A56FB00DBB785 /* bg.png */; };
+		EAC9678F136A56FB00DBB785 /* bug_1.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC96782136A56FB00DBB785 /* bug_1.png */; };
+		EAC96790136A56FB00DBB785 /* bug_2.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC96783136A56FB00DBB785 /* bug_2.png */; };
+		EAC96791136A56FB00DBB785 /* bug_dead.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC96784136A56FB00DBB785 /* bug_dead.png */; };
+		EAC96792136A56FB00DBB785 /* bug_dead.spr in Resources */ = {isa = PBXBuildFile; fileRef = EAC96785136A56FB00DBB785 /* bug_dead.spr */; };
+		EAC96793136A56FB00DBB785 /* bug.spr in Resources */ = {isa = PBXBuildFile; fileRef = EAC96786136A56FB00DBB785 /* bug.spr */; };
+		EAC96794136A56FB00DBB785 /* cookie01.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC96787136A56FB00DBB785 /* cookie01.png */; };
+		EAC96795136A56FB00DBB785 /* cookie02.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC96788136A56FB00DBB785 /* cookie02.png */; };
+		EAC96796136A56FB00DBB785 /* cookie03.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC96789136A56FB00DBB785 /* cookie03.png */; };
+		EAC96797136A56FB00DBB785 /* font.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678A136A56FB00DBB785 /* font.png */; };
+		EAC96798136A56FB00DBB785 /* hit.png in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678B136A56FB00DBB785 /* hit.png */; };
+		EAC96799136A56FB00DBB785 /* hit.spr in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678C136A56FB00DBB785 /* hit.spr */; };
+		EAC9679A136A56FB00DBB785 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678D136A56FB00DBB785 /* hit.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +69,36 @@
 		EA334E2B13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShotViewController.xib; sourceTree = "<group>"; };
 		EA334E3E13656C53002BDA49 /* MyTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTexture.h; sourceTree = "<group>"; };
 		EA334E3F13656C53002BDA49 /* MyTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyTexture.mm; sourceTree = "<group>"; };
+		EAC96765136A561F00DBB785 /* me_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Common.h; sourceTree = "<group>"; };
+		EAC96766136A561F00DBB785 /* me_Common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_Common.mm; sourceTree = "<group>"; };
+		EAC96767136A561F00DBB785 /* me_Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Font.h; sourceTree = "<group>"; };
+		EAC96768136A561F00DBB785 /* me_Font.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_Font.mm; sourceTree = "<group>"; };
+		EAC96769136A561F00DBB785 /* me_math.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_math.h; sourceTree = "<group>"; };
+		EAC9676A136A561F00DBB785 /* me_math.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_math.mm; sourceTree = "<group>"; };
+		EAC9676B136A561F00DBB785 /* me_ScreenPad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_ScreenPad.h; sourceTree = "<group>"; };
+		EAC9676C136A561F00DBB785 /* me_ScreenPad.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_ScreenPad.mm; sourceTree = "<group>"; };
+		EAC9676D136A561F00DBB785 /* me_Sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Sound.h; sourceTree = "<group>"; };
+		EAC9676E136A561F00DBB785 /* me_Sound.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_Sound.mm; sourceTree = "<group>"; };
+		EAC9676F136A561F00DBB785 /* me_Sprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Sprite.h; sourceTree = "<group>"; };
+		EAC96770136A561F00DBB785 /* me_Sprite.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_Sprite.mm; sourceTree = "<group>"; };
+		EAC96771136A561F00DBB785 /* me_Texture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Texture.h; sourceTree = "<group>"; };
+		EAC96772136A561F00DBB785 /* me_Texture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_Texture.mm; sourceTree = "<group>"; };
+		EAC96773136A561F00DBB785 /* me_Timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Timer.h; sourceTree = "<group>"; };
+		EAC96774136A561F00DBB785 /* me_Timer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_Timer.mm; sourceTree = "<group>"; };
+		EAC9677E136A565C00DBB785 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EAC96781136A56FB00DBB785 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = Resource/bg.png; sourceTree = "<group>"; };
+		EAC96782136A56FB00DBB785 /* bug_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bug_1.png; path = Resource/bug_1.png; sourceTree = "<group>"; };
+		EAC96783136A56FB00DBB785 /* bug_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bug_2.png; path = Resource/bug_2.png; sourceTree = "<group>"; };
+		EAC96784136A56FB00DBB785 /* bug_dead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bug_dead.png; path = Resource/bug_dead.png; sourceTree = "<group>"; };
+		EAC96785136A56FB00DBB785 /* bug_dead.spr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bug_dead.spr; path = Resource/bug_dead.spr; sourceTree = "<group>"; };
+		EAC96786136A56FB00DBB785 /* bug.spr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = bug.spr; path = Resource/bug.spr; sourceTree = "<group>"; };
+		EAC96787136A56FB00DBB785 /* cookie01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cookie01.png; path = Resource/cookie01.png; sourceTree = "<group>"; };
+		EAC96788136A56FB00DBB785 /* cookie02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cookie02.png; path = Resource/cookie02.png; sourceTree = "<group>"; };
+		EAC96789136A56FB00DBB785 /* cookie03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = cookie03.png; path = Resource/cookie03.png; sourceTree = "<group>"; };
+		EAC9678A136A56FB00DBB785 /* font.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = font.png; path = Resource/font.png; sourceTree = "<group>"; };
+		EAC9678B136A56FB00DBB785 /* hit.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = hit.png; path = Resource/hit.png; sourceTree = "<group>"; };
+		EAC9678C136A56FB00DBB785 /* hit.spr */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = hit.spr; path = Resource/hit.spr; sourceTree = "<group>"; };
+		EAC9678D136A56FB00DBB785 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = Resource/hit.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EAC9677F136A565C00DBB785 /* AudioToolbox.framework in Frameworks */,
 				EA334E0813655510002BDA49 /* UIKit.framework in Frameworks */,
 				EA334E0A13655510002BDA49 /* Foundation.framework in Frameworks */,
 				EA334E0C13655510002BDA49 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +121,7 @@
 		EA334DF813655510002BDA49 = {
 			isa = PBXGroup;
 			children = (
+				EAC96780136A56C100DBB785 /* Resource */,
 				EA334E1113655510002BDA49 /* Shot */,
 				EA334E0613655510002BDA49 /* Frameworks */,
 				EA334E0413655510002BDA49 /* Products */,
@@ -85,6 +139,7 @@
 		EA334E0613655510002BDA49 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EAC9677E136A565C00DBB785 /* AudioToolbox.framework */,
 				EA334E0713655510002BDA49 /* UIKit.framework */,
 				EA334E0913655510002BDA49 /* Foundation.framework */,
 				EA334E0B13655510002BDA49 /* CoreGraphics.framework */,
@@ -97,6 +152,22 @@
 		EA334E1113655510002BDA49 /* Shot */ = {
 			isa = PBXGroup;
 			children = (
+				EAC96765136A561F00DBB785 /* me_Common.h */,
+				EAC96766136A561F00DBB785 /* me_Common.mm */,
+				EAC96767136A561F00DBB785 /* me_Font.h */,
+				EAC96768136A561F00DBB785 /* me_Font.mm */,
+				EAC96769136A561F00DBB785 /* me_math.h */,
+				EAC9676A136A561F00DBB785 /* me_math.mm */,
+				EAC9676B136A561F00DBB785 /* me_ScreenPad.h */,
+				EAC9676C136A561F00DBB785 /* me_ScreenPad.mm */,
+				EAC9676D136A561F00DBB785 /* me_Sound.h */,
+				EAC9676E136A561F00DBB785 /* me_Sound.mm */,
+				EAC9676F136A561F00DBB785 /* me_Sprite.h */,
+				EAC96770136A561F00DBB785 /* me_Sprite.mm */,
+				EAC96771136A561F00DBB785 /* me_Texture.h */,
+				EAC96772136A561F00DBB785 /* me_Texture.mm */,
+				EAC96773136A561F00DBB785 /* me_Timer.h */,
+				EAC96774136A561F00DBB785 /* me_Timer.mm */,
 				EA334E1A13655510002BDA49 /* ShotAppDelegate.h */,
 				EA334E1B13655510002BDA49 /* ShotAppDelegate.m */,
 				EA334E1D13655510002BDA49 /* MainWindow.xib */,
@@ -123,6 +194,26 @@
 				EA334E1813655510002BDA49 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EAC96780136A56C100DBB785 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				EAC96781136A56FB00DBB785 /* bg.png */,
+				EAC96782136A56FB00DBB785 /* bug_1.png */,
+				EAC96783136A56FB00DBB785 /* bug_2.png */,
+				EAC96784136A56FB00DBB785 /* bug_dead.png */,
+				EAC96785136A56FB00DBB785 /* bug_dead.spr */,
+				EAC96786136A56FB00DBB785 /* bug.spr */,
+				EAC96787136A56FB00DBB785 /* cookie01.png */,
+				EAC96788136A56FB00DBB785 /* cookie02.png */,
+				EAC96789136A56FB00DBB785 /* cookie03.png */,
+				EAC9678A136A56FB00DBB785 /* font.png */,
+				EAC9678B136A56FB00DBB785 /* hit.png */,
+				EAC9678C136A56FB00DBB785 /* hit.spr */,
+				EAC9678D136A56FB00DBB785 /* hit.wav */,
+			);
+			name = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -177,6 +268,19 @@
 				EA334E2113655510002BDA49 /* Shader.fsh in Resources */,
 				EA334E2313655510002BDA49 /* Shader.vsh in Resources */,
 				EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */,
+				EAC9678E136A56FB00DBB785 /* bg.png in Resources */,
+				EAC9678F136A56FB00DBB785 /* bug_1.png in Resources */,
+				EAC96790136A56FB00DBB785 /* bug_2.png in Resources */,
+				EAC96791136A56FB00DBB785 /* bug_dead.png in Resources */,
+				EAC96792136A56FB00DBB785 /* bug_dead.spr in Resources */,
+				EAC96793136A56FB00DBB785 /* bug.spr in Resources */,
+				EAC96794136A56FB00DBB785 /* cookie01.png in Resources */,
+				EAC96795136A56FB00DBB785 /* cookie02.png in Resources */,
+				EAC96796136A56FB00DBB785 /* cookie03.png in Resources */,
+				EAC96797136A56FB00DBB785 /* font.png in Resources */,
+				EAC96798136A56FB00DBB785 /* hit.png in Resources */,
+				EAC96799136A56FB00DBB785 /* hit.spr in Resources */,
+				EAC9679A136A56FB00DBB785 /* hit.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +296,14 @@
 				EA334E2613655510002BDA49 /* EAGLView.m in Sources */,
 				EA334E2913655510002BDA49 /* ShotViewController.m in Sources */,
 				EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */,
+				EAC96775136A561F00DBB785 /* me_Common.mm in Sources */,
+				EAC96776136A561F00DBB785 /* me_Font.mm in Sources */,
+				EAC96777136A561F00DBB785 /* me_math.mm in Sources */,
+				EAC96778136A561F00DBB785 /* me_ScreenPad.mm in Sources */,
+				EAC96779136A561F00DBB785 /* me_Sound.mm in Sources */,
+				EAC9677A136A561F00DBB785 /* me_Sprite.mm in Sources */,
+				EAC9677B136A561F00DBB785 /* me_Texture.mm in Sources */,
+				EAC9677C136A561F00DBB785 /* me_Timer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +418,7 @@
 				EA334E3113655510002BDA49 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

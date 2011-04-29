@@ -1,0 +1,5 @@
+texture bug_dead.png
+addkey 0
+
+color 1 1 1 0
+addkey 5.0

@@ -1,0 +1,6 @@
+texture hit.png
+addkey 0
+
+color 1 1 1 0
+scale 5 5
+addkey 0.3

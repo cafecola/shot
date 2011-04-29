@@ -1,0 +1,8 @@
+texture bug_1.png
+addkey 0
+
+texture bug_2.png
+addkey 0.5
+
+resettimer
+addkey 1.0
