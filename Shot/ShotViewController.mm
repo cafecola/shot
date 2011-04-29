@@ -16,7 +16,7 @@
 #import "me_math.h"
 #import "me_Font.h"
 
-
+#import "game_cookie.h"
 #import "game_common.h"
 
 // Uniform index.
@@ -68,6 +68,8 @@ me_STexture g_BGTex;
     self.displayLink = nil;
     
     g_BGTex = me_CreateTexture(@"bg.png");
+    
+    Cookie_Init();
 }
 
 - (void)dealloc
@@ -175,6 +177,8 @@ me_STexture g_BGTex;
     glClear(GL_COLOR_BUFFER_BIT);
     
     me_PutSpr(0, 0, g_BGTex);
+    
+    Cookie_Render();
     
     [(EAGLView *)self.view presentFramebuffer];
     

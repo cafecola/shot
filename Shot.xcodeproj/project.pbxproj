@@ -21,7 +21,7 @@
 		EA334E2613655510002BDA49 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2513655510002BDA49 /* EAGLView.m */; };
 		EA334E2913655510002BDA49 /* ShotViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2813655510002BDA49 /* ShotViewController.mm */; };
 		EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2A13655510002BDA49 /* ShotViewController.xib */; };
-		EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E3F13656C53002BDA49 /* MyTexture.mm */; };
+		EABDA925136AB64E0009B87D /* game_bug.mm in Sources */ = {isa = PBXBuildFile; fileRef = EABDA924136AB64E0009B87D /* game_bug.mm */; };
 		EAC96775136A561F00DBB785 /* me_Common.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96766136A561F00DBB785 /* me_Common.mm */; };
 		EAC96776136A561F00DBB785 /* me_Font.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC96768136A561F00DBB785 /* me_Font.mm */; };
 		EAC96777136A561F00DBB785 /* me_math.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC9676A136A561F00DBB785 /* me_math.mm */; };
@@ -45,6 +45,7 @@
 		EAC96799136A56FB00DBB785 /* hit.spr in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678C136A56FB00DBB785 /* hit.spr */; };
 		EAC9679A136A56FB00DBB785 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678D136A56FB00DBB785 /* hit.wav */; };
 		EAC9679D136A587500DBB785 /* game_common.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC9679C136A587500DBB785 /* game_common.mm */; };
+		EAC967A9136A77D000DBB785 /* game_cookie.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC967A8136A77D000DBB785 /* game_cookie.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,8 +69,8 @@
 		EA334E2713655510002BDA49 /* ShotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotViewController.h; sourceTree = "<group>"; };
 		EA334E2813655510002BDA49 /* ShotViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ShotViewController.mm; sourceTree = "<group>"; };
 		EA334E2B13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShotViewController.xib; sourceTree = "<group>"; };
-		EA334E3E13656C53002BDA49 /* MyTexture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTexture.h; sourceTree = "<group>"; };
-		EA334E3F13656C53002BDA49 /* MyTexture.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyTexture.mm; sourceTree = "<group>"; };
+		EABDA923136AB64E0009B87D /* game_bug.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_bug.h; sourceTree = "<group>"; };
+		EABDA924136AB64E0009B87D /* game_bug.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_bug.mm; sourceTree = "<group>"; };
 		EAC96765136A561F00DBB785 /* me_Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Common.h; sourceTree = "<group>"; };
 		EAC96766136A561F00DBB785 /* me_Common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = me_Common.mm; sourceTree = "<group>"; };
 		EAC96767136A561F00DBB785 /* me_Font.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = me_Font.h; sourceTree = "<group>"; };
@@ -102,6 +103,8 @@
 		EAC9678D136A56FB00DBB785 /* hit.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = hit.wav; path = Resource/hit.wav; sourceTree = "<group>"; };
 		EAC9679B136A587500DBB785 /* game_common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_common.h; sourceTree = "<group>"; };
 		EAC9679C136A587500DBB785 /* game_common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_common.mm; sourceTree = "<group>"; };
+		EAC967A7136A77CF00DBB785 /* game_cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_cookie.h; sourceTree = "<group>"; };
+		EAC967A8136A77D000DBB785 /* game_cookie.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_cookie.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,8 +187,10 @@
 				EA334E2813655510002BDA49 /* ShotViewController.mm */,
 				EA334E2A13655510002BDA49 /* ShotViewController.xib */,
 				EA334E1213655510002BDA49 /* Supporting Files */,
-				EA334E3E13656C53002BDA49 /* MyTexture.h */,
-				EA334E3F13656C53002BDA49 /* MyTexture.mm */,
+				EAC967A7136A77CF00DBB785 /* game_cookie.h */,
+				EAC967A8136A77D000DBB785 /* game_cookie.mm */,
+				EABDA923136AB64E0009B87D /* game_bug.h */,
+				EABDA924136AB64E0009B87D /* game_bug.mm */,
 			);
 			path = Shot;
 			sourceTree = "<group>";
@@ -300,7 +305,6 @@
 				EA334E1C13655510002BDA49 /* ShotAppDelegate.mm in Sources */,
 				EA334E2613655510002BDA49 /* EAGLView.m in Sources */,
 				EA334E2913655510002BDA49 /* ShotViewController.mm in Sources */,
-				EA334E4013656C53002BDA49 /* MyTexture.mm in Sources */,
 				EAC96775136A561F00DBB785 /* me_Common.mm in Sources */,
 				EAC96776136A561F00DBB785 /* me_Font.mm in Sources */,
 				EAC96777136A561F00DBB785 /* me_math.mm in Sources */,
@@ -310,6 +314,8 @@
 				EAC9677B136A561F00DBB785 /* me_Texture.mm in Sources */,
 				EAC9677C136A561F00DBB785 /* me_Timer.mm in Sources */,
 				EAC9679D136A587500DBB785 /* game_common.mm in Sources */,
+				EAC967A9136A77D000DBB785 /* game_cookie.mm in Sources */,
+				EABDA925136AB64E0009B87D /* game_bug.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,7 +362,9 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Debug;
 		};
@@ -370,8 +378,10 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7";
 			};
 			name = Release;
 		};
@@ -379,13 +389,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shot/Shot-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Shot/Shot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv6 armv7 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -394,13 +408,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Shot/Shot-Prefix.pch";
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
 				INFOPLIST_FILE = "Shot/Shot-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv6 armv7 i386";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
