@@ -76,5 +76,22 @@ void Bug_FrameMove() {
             
             continue;
         }
+        
+        if (g_Bug[i].TargetCookieIndex == -1) {
+            int j;
+            for (j=0; j<MAX_COOKIE; j++) {
+                g_SearchIndex++;
+                g_SearchIndex = g_SearchIndex % MAX_COOKIE;
+                
+                if (g_Cookie[g_SearchIndex].Type == -1) continue;
+                
+                if (g_Cookie[g_SearchIndex].BugFlage == 0) {
+                    g_Bug[i].TargetCookieIndex = g_SearchIndex;
+                    break;
+                }
+            }
+        } else {
+            
+        }
     }
 }
