@@ -34,9 +34,4 @@ void Bug_Create(float x, float y);
 void Bug_Kill(int index);
 void Bug_FrameMove();
 void Bug_Render();
-<<<<<<< HEAD
-=======
 
-// 테스트 임다...
-// 여기도....
->>>>>>> b44c6ef2bb2495c86afd04db526fad7bcf9f98e3
