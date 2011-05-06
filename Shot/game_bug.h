@@ -35,3 +35,4 @@ void Bug_Kill(int index);
 void Bug_FrameMove();
 void Bug_Render();
 
+// 테스트 임다...
