@@ -17,6 +17,7 @@
 #import "me_Font.h"
 
 #import "game_cookie.h"
+#import "game_bug.h"
 #import "game_common.h"
 
 // Uniform index.
@@ -34,6 +35,7 @@ enum {
 };
 
 me_STexture g_BGTex;
+float g_RespawnTime=0.5;
 
 @interface ShotViewController ()
 @property (nonatomic, retain) EAGLContext *context;
@@ -67,9 +69,11 @@ me_STexture g_BGTex;
     animationFrameInterval = 1;
     self.displayLink = nil;
     
+    me_Update();
     g_BGTex = me_CreateTexture(@"bg.png");
     
     Cookie_Init();
+    Bug_Init();
 }
 
 - (void)dealloc
@@ -170,14 +174,30 @@ me_STexture g_BGTex;
 - (void)drawFrame
 {
     [(EAGLView *)self.view setFramebuffer];
-    
     [UIApplication sharedApplication].idleTimerDisabled = YES;
+    
+    me_Update();
     
     glClearColor(0.5f, 0.5f, 0.5f, 1.0f);
     glClear(GL_COLOR_BUFFER_BIT);
     
     me_PutSpr(0, 0, g_BGTex);
     
+    Bug_FrameMove();
+    
+    g_RespawnTime -= me_GetElapsedTime();
+    if (g_RespawnTime < 0) {
+        float angle = DEGREE2RAD(rand()%360);
+        
+        float p[2];
+        p[0] = -cos(angle) * 300 + 240;
+        p[1] = -sin(angle) * 300 +160;
+        
+        Bug_Create(p[0], p[1]);
+        g_RespawnTime=0.5f;
+    }
+    
+    Bug_Render();
     Cookie_Render();
     
     [(EAGLView *)self.view presentFramebuffer];

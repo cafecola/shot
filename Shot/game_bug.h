@@ -34,4 +34,5 @@ void Bug_Create(float x, float y);
 void Bug_Kill(int index);
 void Bug_FrameMove();
 void Bug_Render();
+void Bug_Check(int x, int y);
 

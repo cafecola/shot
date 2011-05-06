@@ -125,3 +125,68 @@ void Bug_Render() {
         g_Bug[i].BugSpr.Render(g_Bug[i].Pos[0]-32, g_Bug[i].Pos[1]-32, g_Bug[i].Angle);
     }
 }
+
+void Bug_Check(int x, int y) {
+    int i;
+    vector2f p, d;
+    float length;
+    
+    for (i=0; i<MAX_BUG; i++) {
+        if (g_Bug[i].Valid == 0) continue;
+        
+        p[0] = x;
+        p[1] = y;
+        
+        vec2sub(d, g_Bug[i].Pos, p);
+        length = vec2length(d);
+        
+        if (length < 32) {
+            Bug_Kill(i);
+        }
+    }
+}
+
+
+struct SDeadBug {
+    float rTime;
+    vector2f Pos;
+    float Angle;
+    
+    me_CSprite DeadBugSpr;
+};
+
+#define MAX_DEADBUG 32
+SDeadBug g_DeadBug[MAX_DEADBUG];
+
+void DeadBug_Init() {
+    int i;
+    for (i=0; i<MAX_DEADBUG; i++) {
+        g_DeadBug[i].DeadBugSpr.Load("bug_dead.spr");
+        g_DeadBug[i].rTime = 0.0f;
+    }
+}
+
+void DeadBug_Create(int x, int y, int angle) {
+    int i;
+    for (i=0; i<MAX_DEADBUG; i++) {
+        if (g_DeadBug[i].rTime<=0) {
+            g_DeadBug[i].Pos[0] = x;
+            g_DeadBug[i].Pos[1] = y;
+            g_DeadBug[i].Angle = angle;
+            g_DeadBug[i].rTime = 5.5f;
+            
+            g_DeadBug[i].DeadBugSpr.Reset();
+            break;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+

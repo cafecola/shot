@@ -18,7 +18,7 @@
 		EA334E1F13655510002BDA49 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E1D13655510002BDA49 /* MainWindow.xib */; };
 		EA334E2113655510002BDA49 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2013655510002BDA49 /* Shader.fsh */; };
 		EA334E2313655510002BDA49 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2213655510002BDA49 /* Shader.vsh */; };
-		EA334E2613655510002BDA49 /* EAGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2513655510002BDA49 /* EAGLView.m */; };
+		EA334E2613655510002BDA49 /* EAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2513655510002BDA49 /* EAGLView.mm */; };
 		EA334E2913655510002BDA49 /* ShotViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EA334E2813655510002BDA49 /* ShotViewController.mm */; };
 		EA334E2C13655510002BDA49 /* ShotViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA334E2A13655510002BDA49 /* ShotViewController.xib */; };
 		EABDA925136AB64E0009B87D /* game_bug.mm in Sources */ = {isa = PBXBuildFile; fileRef = EABDA924136AB64E0009B87D /* game_bug.mm */; };
@@ -65,7 +65,7 @@
 		EA334E2013655510002BDA49 /* Shader.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.fsh; path = Shaders/Shader.fsh; sourceTree = "<group>"; };
 		EA334E2213655510002BDA49 /* Shader.vsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; name = Shader.vsh; path = Shaders/Shader.vsh; sourceTree = "<group>"; };
 		EA334E2413655510002BDA49 /* EAGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EAGLView.h; sourceTree = "<group>"; };
-		EA334E2513655510002BDA49 /* EAGLView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EAGLView.m; sourceTree = "<group>"; };
+		EA334E2513655510002BDA49 /* EAGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = EAGLView.mm; sourceTree = "<group>"; };
 		EA334E2713655510002BDA49 /* ShotViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ShotViewController.h; sourceTree = "<group>"; };
 		EA334E2813655510002BDA49 /* ShotViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ShotViewController.mm; sourceTree = "<group>"; };
 		EA334E2B13655510002BDA49 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ShotViewController.xib; sourceTree = "<group>"; };
@@ -182,7 +182,7 @@
 				EA334E2013655510002BDA49 /* Shader.fsh */,
 				EA334E2213655510002BDA49 /* Shader.vsh */,
 				EA334E2413655510002BDA49 /* EAGLView.h */,
-				EA334E2513655510002BDA49 /* EAGLView.m */,
+				EA334E2513655510002BDA49 /* EAGLView.mm */,
 				EA334E2713655510002BDA49 /* ShotViewController.h */,
 				EA334E2813655510002BDA49 /* ShotViewController.mm */,
 				EA334E2A13655510002BDA49 /* ShotViewController.xib */,
@@ -303,7 +303,7 @@
 			files = (
 				EA334E1913655510002BDA49 /* main.m in Sources */,
 				EA334E1C13655510002BDA49 /* ShotAppDelegate.mm in Sources */,
-				EA334E2613655510002BDA49 /* EAGLView.m in Sources */,
+				EA334E2613655510002BDA49 /* EAGLView.mm in Sources */,
 				EA334E2913655510002BDA49 /* ShotViewController.mm in Sources */,
 				EAC96775136A561F00DBB785 /* me_Common.mm in Sources */,
 				EAC96776136A561F00DBB785 /* me_Font.mm in Sources */,
