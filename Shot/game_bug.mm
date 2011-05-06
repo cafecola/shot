@@ -91,7 +91,37 @@ void Bug_FrameMove() {
                 }
             }
         } else {
+            if (g_Cookie[g_Bug[i].TargetCookieIndex].BugFlage==1) {
+                g_Bug[i].TargetCookieIndex = -1;
+                continue;
+            }
+            vec2copy(g_Bug[i].TargetPos, g_Cookie[g_Bug[i].TargetCookieIndex].pos);
             
+            float d[2];
+            vec2sub(d, g_Bug[i].TargetPos, g_Bug[i].Pos);
+            float length = vec2length(d);
+            
+            if (length<3.0f) {
+                g_Bug[i].CookieIndex = g_Bug[i].TargetCookieIndex;
+                g_Bug[i].TargetCookieIndex = -1;
+                g_Cookie[g_Bug[i].CookieIndex].BugFlage = 1;
+            } else {
+                vec2normalize(d);
+                g_Bug[i].Pos[0] += (d[0] * g_Bug[i].Speed) * me_GetElapsedTime();
+                g_Bug[i].Pos[1] += (d[1] * g_Bug[i].Speed) * me_GetElapsedTime();
+                
+                float org[2] = {0, 0};
+                g_Bug[i].Angle = GetAngle(org, d);
+            }
         }
+    }
+}
+
+void Bug_Render() {
+    int i;
+    for (i=0; i<MAX_BUG; i++) {
+        if (g_Bug[i].Valid == 0) continue;
+        
+        g_Bug[i].BugSpr.Render(g_Bug[i].Pos[0]-32, g_Bug[i].Pos[1]-32, g_Bug[i].Angle);
     }
 }
