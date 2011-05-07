@@ -18,6 +18,8 @@
 
 #import "game_cookie.h"
 #import "game_bug.h"
+#import "game_effect.h"
+#import "game_sound.h"
 #import "game_common.h"
 
 // Uniform index.
@@ -74,6 +76,10 @@ float g_RespawnTime=0.5;
     
     Cookie_Init();
     Bug_Init();
+    Effect_Init();
+    Sound_Init();
+    
+    me_FontInit();
 }
 
 - (void)dealloc
@@ -199,6 +205,13 @@ float g_RespawnTime=0.5;
     
     Bug_Render();
     Cookie_Render();
+    
+    Effect_FrameMove();
+    Effect_Render();
+    
+    char Text[256];
+    sprintf(Text, "SCORE %05d     COOKIE %02d", g_Score, g_CookieCount);
+    me_PutText(5, 0, Text);
     
     [(EAGLView *)self.view presentFramebuffer];
     

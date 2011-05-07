@@ -9,6 +9,9 @@
 #import "game_bug.h"
 #import "game_cookie.h"
 #import "me_Timer.h"
+#import "game_effect.h"
+#import "game_sound.h"
+#import "game_common.h"
 
 SBug g_Bug[MAX_BUG];
 int g_SearchIndex = 0;
@@ -105,6 +108,11 @@ void Bug_Kill(int index) {
     g_Bug[index].Valid = 0;
     
     DeadBug_Create(g_Bug[index].Pos[0]-32, g_Bug[index].Pos[1]-32, g_Bug[index].Angle);
+    Effect_Create(g_Bug[index].Pos[0]-32, g_Bug[index].Pos[1]-32);
+    
+    Sound_Play(SID_HIT);
+    
+    g_Score += 10;
 }
 
 void Bug_FrameMove() {
@@ -122,6 +130,9 @@ void Bug_FrameMove() {
             if (length < 3.0f) {
                 g_Cookie[g_Bug[i].CookieIndex].Type = -1;
                 g_Bug[i].Valid = 0;
+                
+                g_CookieCount --;
+                
             } else {
                 d[0] /= length;
                 d[1] /= length;

@@ -46,6 +46,8 @@
 		EAC9679A136A56FB00DBB785 /* hit.wav in Resources */ = {isa = PBXBuildFile; fileRef = EAC9678D136A56FB00DBB785 /* hit.wav */; };
 		EAC9679D136A587500DBB785 /* game_common.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC9679C136A587500DBB785 /* game_common.mm */; };
 		EAC967A9136A77D000DBB785 /* game_cookie.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAC967A8136A77D000DBB785 /* game_cookie.mm */; };
+		EAE6AB981375C58500AADED7 /* game_effect.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAE6AB961375C58500AADED7 /* game_effect.mm */; };
+		EAE6ABA41375CE2D00AADED7 /* game_sound.mm in Sources */ = {isa = PBXBuildFile; fileRef = EAE6ABA21375CE2D00AADED7 /* game_sound.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -105,6 +107,10 @@
 		EAC9679C136A587500DBB785 /* game_common.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_common.mm; sourceTree = "<group>"; };
 		EAC967A7136A77CF00DBB785 /* game_cookie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_cookie.h; sourceTree = "<group>"; };
 		EAC967A8136A77D000DBB785 /* game_cookie.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_cookie.mm; sourceTree = "<group>"; };
+		EAE6AB961375C58500AADED7 /* game_effect.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_effect.mm; sourceTree = "<group>"; };
+		EAE6AB971375C58500AADED7 /* game_effect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_effect.h; sourceTree = "<group>"; };
+		EAE6ABA21375CE2D00AADED7 /* game_sound.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = game_sound.mm; sourceTree = "<group>"; };
+		EAE6ABA31375CE2D00AADED7 /* game_sound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = game_sound.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +197,10 @@
 				EAC967A8136A77D000DBB785 /* game_cookie.mm */,
 				EABDA923136AB64E0009B87D /* game_bug.h */,
 				EABDA924136AB64E0009B87D /* game_bug.mm */,
+				EAE6AB961375C58500AADED7 /* game_effect.mm */,
+				EAE6AB971375C58500AADED7 /* game_effect.h */,
+				EAE6ABA21375CE2D00AADED7 /* game_sound.mm */,
+				EAE6ABA31375CE2D00AADED7 /* game_sound.h */,
 			);
 			path = Shot;
 			sourceTree = "<group>";
@@ -316,6 +326,8 @@
 				EAC9679D136A587500DBB785 /* game_common.mm in Sources */,
 				EAC967A9136A77D000DBB785 /* game_cookie.mm in Sources */,
 				EABDA925136AB64E0009B87D /* game_bug.mm in Sources */,
+				EAE6AB981375C58500AADED7 /* game_effect.mm in Sources */,
+				EAE6ABA41375CE2D00AADED7 /* game_sound.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
